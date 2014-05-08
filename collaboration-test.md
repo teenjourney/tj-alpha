@@ -2,14 +2,14 @@ This Is a test for collaboration between team members for the teenjourney site.
 
 #Please Check in :
 
-- [ x ] Nathan
-- [   ] Connor
-- [   ] Myles
-- [   ] Julien
-- [   ] David
-- [   ] Joomi
-- [   ] Karen
-- [   ] Roma
+- [x] Nathan
+- [ ] Connor
+- [ ] Myles
+- [ ] Julien
+- [ ] David
+- [ ] Joomi
+- [ ] Karen
+- [ ] Roma
 
 
 ### Steps To check in 
