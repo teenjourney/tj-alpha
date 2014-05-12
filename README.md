@@ -3,11 +3,10 @@ tj-alpha
 
 ### the landing spot for the new teenjourney prototype
 
-If this is your first time checking out this repo please view collaboration-test.md for further details.
-
+>If this is your first time checking out this repo please view the file *collaboration-test.md* for further details.
 
 ##Contributing to a Project
->source: https://guides.github.com/activities/contributing-to-open-source/
+
 
 Now that you’ve found the material for understanding the project, here is how you can take action.
 
@@ -29,7 +28,7 @@ If you’re able to patch the bug or add the feature yourself – fantastic, mak
 
 ###Pull Request Pro Tips
 
-Fork the repository and clone it locally. Connect your local to the original ‘upstream’ repository by adding it as a remote. Pull in changes from ‘upstream’ often so that you stay up to date so that when you submit your pull request, merge conflicts will be less likely. See more detailed instructions here: https://help.github.com/articles/syncing-a-fork
+Fork the repository and clone it locally. Connect your local to the original ‘upstream’ repository by adding it as a remote. Pull in changes from ‘upstream’ often so that you stay up to date so that when you submit your pull request, merge conflicts will be less likely. See more detailed instructions [Here](https://help.github.com/articles/syncing-a-fork:) 
 
 ###Create a branch for your edits.
 
@@ -42,3 +41,7 @@ Contribute in the style of the project to the best of your abilities. This may m
 ###Open Pull Requests
 
 Once you’ve opened a pull request a discussion will start around your proposed changes. Other contributors and users may chime in, but ultimately the decision is made by the maintainer(s). You may be asked to make some changes to your pull request, if so, add more commits to your branch and push them – they’ll automatically go into the existing pull request.
+
+
+#####Original source: https://guides.github.com/activities/contributing-to-open-source/
+
