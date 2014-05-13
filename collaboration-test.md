@@ -10,6 +10,7 @@ This Is a test for collaboration between team members for the teenjourney site.
 - [ ] Joomi
 - [ ] Karen
 - [ ] Roma
+- [x] InteractiveDesign
 
 
 ### Steps To check in 
