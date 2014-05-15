@@ -5,7 +5,7 @@ This Is a test for collaboration between team members for the teenjourney site.
 - [x] Nathan
 - [ ] Connor
 - [ ] Myles
-- [ ] Julien
+- [x] Julien
 - [ ] David
 - [ ] Joomi
 - [ ] Karen
