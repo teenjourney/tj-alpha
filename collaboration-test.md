@@ -3,7 +3,7 @@ This Is a test for collaboration between team members for the teenjourney site.
 #Please Check in :
 
 - [x] Nathan
-- [ ] Connor
+- [x] Connor
 - [ ] Myles
 - [x] Julien
 - [ ] David
