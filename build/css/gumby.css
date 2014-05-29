@@ -1726,7 +1726,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 
 .heroImg { width: 100%; height: auto; }
 
-.heroText { position: absolute; /* z-index: 9000; */ top: 60%; }
+.heroText { position: absolute; /* z-index: 9000; */ bottom: 10%; }
 .heroText h4 { font-size: 1.8em; height: 100%; color: white; font-weight: 500; }
 .heroText span { font-weight: 900; }
 
@@ -1750,7 +1750,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 
 .asideTwo { background: url("../img/value.jpg"); text-align: left; background-position: center top; background-size: 100%; }
 .asideTwo h5 { color: white; position: absolute; font-weight: 700; left: 30px; bottom: 30px; }
-.asideTwo i { color: white; font-weight: 700; position: absolute; left: 30px; bottom: 100px; }
+.asideTwo i { color: white; font-weight: 700; position: absolute; left: 30px; bottom: 130px; }
 
 .besideAside { font-size: 1em; display: table; overflow: hidden; }
 .besideAside ul li { width: 100%; }
@@ -1762,9 +1762,9 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 		overflow: hidden;
 */ }
 
-.asideHover { position: absolute; background: #ff9f36; width: 100%; top: 0; left: 0; right: 0; bottom: 0; padding: 30px; padding-bottom: 65px; opacity: 0; overflow: hidden; color: white; }
+.asideHover { position: absolute; background: #ff9f36; width: 100%; top: 0; left: 0; right: 0; bottom: 0; padding: 10px 30px 30px 30px; padding-bottom: 50px; opacity: 0; overflow: hidden; color: white; }
 .asideHover:hover { opacity: 1; -webkit-transition-property: opacity; -moz-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
-.asideHover:hover h5 { margin-top: 1em; -webkit-transition-property: margin-top; -moz-transition-property: margin-top; -o-transition-property: margin-top; transition-property: margin-top; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+.asideHover:hover h5 { margin-top: .01em; -webkit-transition-property: margin-top; -moz-transition-property: margin-top; -o-transition-property: margin-top; transition-property: margin-top; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
 .asideHover h5 { /* 		display: table-cell; vertical-align: middle; */ margin-top: 5em; color: white; font-size: 1.5em; font-weight: 700; text-shadow: 0px 0px #000; }
 
 .s4 { padding-top: 75px; padding-bottom: 75px; }
@@ -1823,10 +1823,6 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 
 .rubyPoster img { width: 100%; height: auto; }
 
-.aside h4 { line-height: 50px; font-weight: 600; }
-
-.asideHover h5 { font-weight: 400; line-height: 40px; text-shadow: 0 0 0 0; }
-
 h2 { font-weight: 900; line-height: 60px; }
 
 h3 { line-height: 60px; }
@@ -1834,3 +1830,9 @@ h3 { line-height: 60px; }
 h4 { line-height: 52px; }
 
 h5 { line-height: 44px; }
+
+.aside h4 { line-height: 40px; font-weight: 600; }
+
+.asideAlt h4 { line-height: 35px; font-weight: 600; }
+
+.asideHover h5 { font-weight: 400; line-height: 27px; text-shadow: 0 0 0 0; }

@@ -17,7 +17,7 @@
 			   besideAside.css("display","table");
 			   asideAlt.find('h4').css("margin-top", (asideAlt.height()/2) + 'px');
 			   aside.find('h4').css("margin-top", (aside.height()/2-35) + 'px');
-			   heroText.css("top", (hero.height()/2));
+			  /*  heroText.css("bottom", (hero.height()/2)); */
 
 	
 			$(window).resize(function(){
@@ -37,7 +37,7 @@
 			   besideAside.css("display","table");
 			   asideAlt.find('h4').css("margin-top", (asideAlt.height()/2) + 'px');
 			   aside.find('h4').css("margin-top", (aside.height()/2-35) + 'px');
-			   heroText.css("top", (hero.height()/2));9
+			  /*  heroText.css("bottom", (hero.height()/2)); */
  
 			});
 		});
