@@ -667,7 +667,7 @@ p.lead { font-size: 25px; font-size: 1.25rem; margin-bottom: 30px; }
 @media only screen and (max-width: 4px) { p { font-size: 22px; font-size: 1.1rem; line-height: 1.3em; } }
 
 a { color: #ff9f36; text-decoration: none; outline: 0; line-height: inherit; }
-a:hover { color: white; }
+a:hover { color: rgba(255, 159, 54, 0.7); }
 
 /*=====================================================
  Lists  ======================================================*/
@@ -1700,6 +1700,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 
 .orangeBtn { border: 2px #ff9f36 solid; background: #ff9f36; height: auto; text-align: center; line-height: 1em; font-weight: 700; padding-top: 16px; padding-bottom: 16px; }
 .orangeBtn:hover { background: #ffb05a; }
+.orangeBtn:hover a { color: #fff; }
 
 .icon-dot { color: #4dc1ce; }
 
@@ -1721,6 +1722,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 
 .readMore { color: white; border: 2px rgba(255, 159, 54, 0.7) solid; background: rgba(255, 159, 54, 0.1); padding: 10px; line-height: 1em; text-align: center; font-weight: 700; /* padding-top: 2px; */ }
 .readMore:hover { background: rgba(255, 220, 182, 0.1); }
+.readMore:hover a { color: #fff; }
 
 .hero { position: relative; color: white; /* text-align: center; */ }
 
@@ -1752,7 +1754,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 .asideTwo h5 { color: white; position: absolute; font-weight: 700; left: 30px; bottom: 30px; }
 .asideTwo i { color: white; font-weight: 700; position: absolute; left: 30px; bottom: 130px; }
 
-.besideAside { font-size: 1em; display: table; overflow: hidden; }
+.besideAside { font-size: 1em; line-height: 1.8em; display: table; overflow: hidden; }
 .besideAside ul li { width: 100%; }
 
 .tableAlign { display: table-cell; vertical-align: middle; }
@@ -1765,13 +1767,14 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 .asideHover { position: absolute; background: #ff9f36; width: 100%; top: 0; left: 0; right: 0; bottom: 0; padding: 10px 30px 30px 30px; padding-bottom: 50px; opacity: 0; overflow: hidden; color: white; }
 .asideHover:hover { opacity: 1; -webkit-transition-property: opacity; -moz-transition-property: opacity; -o-transition-property: opacity; transition-property: opacity; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
 .asideHover:hover h5 { margin-top: .01em; -webkit-transition-property: margin-top; -moz-transition-property: margin-top; -o-transition-property: margin-top; transition-property: margin-top; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
-.asideHover h5 { /* 		display: table-cell; vertical-align: middle; */ margin-top: 5em; color: white; font-size: 1.5em; font-weight: 700; text-shadow: 0px 0px #000; }
+.asideHover h5 { /* 		display: table-cell; vertical-align: middle; */ margin-top: 5em; color: white; font-size: 1.5em; font-weight: 700; }
 
 .s4 { padding-top: 75px; padding-bottom: 75px; }
 .s4 h4 { color: black; }
 
-.threeGrid { padding-left: 1em; }
-.threeGrid li { margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat; }
+.threeGrid ul { padding: 0; margin: 0; }
+.threeGrid li { width: 30%; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat; }
+.threeGrid li img { width: 100%; }
 
 .seperation { background: url("../img/seperation.jpg"); }
 
@@ -1835,4 +1838,4 @@ h5 { line-height: 44px; }
 
 .asideAlt h4 { line-height: 35px; font-weight: 600; }
 
-.asideHover h5 { font-weight: 400; line-height: 27px; text-shadow: 0 0 0 0; }
+.asideHover h5 { font-weight: 400; line-height: 27px; }
