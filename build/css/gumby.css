@@ -1724,7 +1724,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 .readMore:hover { background: rgba(255, 220, 182, 0.1); }
 .readMore:hover a { color: #fff; }
 
-.hero { position: relative; color: white; /* text-align: center; */ }
+.hero { position: relative; color: white; margin-top: 62px; }
 
 .heroImg { width: 100%; height: auto; }
 
@@ -1773,7 +1773,7 @@ a { color: white; font-weight: 700; font-family: 'Quicksand', sans-serif; }
 .s4 h4 { color: black; }
 
 .threeGrid ul { padding: 0; margin: 0; }
-.threeGrid li { width: 30%; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat; }
+.threeGrid li { width: 33.3%; margin: 0; padding: 0; background-size: cover; background-repeat: no-repeat; }
 .threeGrid li img { width: 100%; }
 
 .seperation { background: url("../img/seperation.jpg"); }
